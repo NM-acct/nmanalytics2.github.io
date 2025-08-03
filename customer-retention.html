@@ -13,7 +13,22 @@
     <header id="header">
       <a href="index.html" class="logo">← Back to Portfolio</a>
     </header>
-    <div id="main">
+    
+	<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Project</a></li>
+							<li><a href="#footer">Contact Me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+	
+	<div id="main">
       <article class="post featured">
         <header class="major">
           <span class="date">Project: Customer Retention</span>
@@ -21,66 +36,137 @@
           <p>Explored churn behavior using SQL to clean and query the Telco dataset, followed by Tableau dashboard design for data storytelling.</p>
         </header>
         <div id="gallery-retention" class="image main gallery-wrapper">
-  <a href="images/pic02.jpg" data-pswp-width="1200" data-pswp-height="800">
-    <img src="images/pic02.jpg" alt="Customer Retention Dashboard 1">
+  <a href="images/custmer_retention_db.png" data-pswp-width="1200" data-pswp-height="800">
+    <img src="images/custmer_retention_db.png" alt="Customer Retention Dashboard 1">
     <div class="gallery-nav">
       <span class="arrow left">&#10094;</span>
       <span class="arrow right">&#10095;</span>
     </div>
   </a>
-  <a href="images/pic03.jpg" data-pswp-width="1200" data-pswp-height="800" style="display: none;">
-    <img src="images/pic03.jpg" alt="Customer Retention Dashboard 2">
+  <a href="images/retention_MessyData.png" data-pswp-width="1200" data-pswp-height="800" style="display: none;">
+    <img src="images/retention_MessyData.png" alt="Customer Retention Dashboard 2">
   </a>
-  <a href="images/pic04.jpg" data-pswp-width="1200" data-pswp-height="800" style="display: none;">
-    <img src="images/pic04.jpg" alt="Customer Retention Dashboard 3">
+  <a href="images/retention_CleanData.png" data-pswp-width="1200" data-pswp-height="800" style="display: none;">
+    <img src="images/retention_CleanData.png" alt="Customer Retention Dashboard 3">
   </a>
 </div>
 
+<p style="font-size: 0.75em; font-style: italic;">
+  The images shown are the dashboard, messy data, and cleaned data, respectively.
+</p>
+<p style="text-align: center; margin-top: 1em;">
+  <a href="https://drive.google.com/drive/folders/1Nym9SMC02rO9FBaZdMuvO7aqLnZjyjEA?usp=sharing" 
+     target="_blank" 
+     class="button">
+    View Excel Data on Google Drive
+  </a>
+</p>
+
         <section>
-          <h3>Objective</h3>
-          <p>To understand which customers are more likely to churn and why, based on contract type, tenure, and service features.</p>
-          <h3>Tools Used</h3>
-          <ul style="text-align: left;">
-            <li><strong>SQLite:</strong> Data cleaning, queries, recoding churn</li>
-            <li><strong>Tableau:</strong> Dashboards, filters, tooltips</li>
-          </ul>
-          <h3>Insights</h3>
-          <ul style="text-align: left;">
-            <li>Month-to-month users have the highest churn rate</li>
-            <li>Fiber internet subscribers are more likely to cancel</li>
-            <li>Customers in their first year of service churn the most</li>
-          </ul>
-          <h3>Outcome</h3>
-          <p>Developed a clean and useful dashboard to visualize churn drivers. Practiced SQL for data wrangling and Tableau for storytelling.</p>
-        </section>
+          <div class="table-wrapper" style="text-align: left;">
+  <table>						
+											<tbody>
+												<tr>
+													<td><strong>Objective:</strong></td>
+													<td>
+                          <li>Who are the most loyal/high-spending customers? </li> 
+                          <li>What’s the repeat purchase rate?</li>  
+                          <li>Are we retaining customers over time or losing them?</li></td>
+												</tr>
+												<tr>
+													<td><strong>Tools Used:</strong></td>
+													<td>
+                            <li><strong>SQLite:</strong> Data cleaning, queries, recoding churn</li>
+                            <li><strong>Tableau:</strong> Dashboards, filters, tooltips</li></td>
+												</tr>
+												<tr>
+													<td><strong>Insights:</strong></td>
+													<td>
+                            <li>Month-to-month users have the highest churn rate</li>
+                            <li>Fiber internet subscribers are more likely to cancel</li>
+                            <li>Customers in their first year of service churn the most</li>
+                        </td>
+													
+												</tr>
+												<tr>
+													<td><strong>Outcome:</strong></td>
+													<td>Developed a clean and useful dashboard to visualize churn drivers. Practiced SQL for data wrangling and Tableau for storytelling.</td>
+												</tr>
+											</tbody>
+											<tfoot>
+									
+											</tfoot>
+										</table>
+</div>
+</section>
         <ul class="actions special">
           <li><a href="index.html" class="button">← Back to Home</a></li>
         </ul>
       </article>
     </div>
-    <footer id="footer">
-      <section class="split contact">
-        <section class="alt">
-          <h3>Address</h3>
-          <p>Philippines</p>
-        </section>
-        <section>
-          <h3>Email</h3>
-          <p><a href="mailto:nmaemondejar@email.com">nmaemondejar@email.com</a></p>
-        </section>
-      </section>
-    </footer>
-    <div id="copyright">
-      <ul><li>&copy; NOE ANALYTICS</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-    </div>
-  </div>
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrollex.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
+    
+    <!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="POST" action="https://formspree.io/f/xqalekrv">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Philippines</p>
+							</section>
+							
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:nmaemondejar@gmail.com">nmaemondejar@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Noe Analytics</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+  <!-- PhotoSwipe JS -->
 <script type="module">
   import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
   import PhotoSwipe from 'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js';
