@@ -17,19 +17,19 @@
         <a href="index.html" class="logo">← Back to Portfolio</a>
       </header>
 
-      <!-- Nav (optional - remove if you don't need it here) -->
-      <nav id="nav">
-        <ul class="links">
-          <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="product-returns.html">Product Returns</a></li>
-        </ul>
-        <ul class="icons">
-          <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-          <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-          <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-          <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-        </ul>
-      </nav>
+      <!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Project</a></li>
+							<li><a href="#footer">Contact Me</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
       <!-- Main -->
       <div id="main">
@@ -40,42 +40,65 @@
             <p>This project visualizes product return reasons, quantities, and trends to help optimize return policies and reduce losses.</p>
           </header>
           <div id="gallery-returns" class="image main gallery-wrapper">
-  <a href="images/pic02.jpg" data-pswp-width="1200" data-pswp-height="800">
-    <img src="images/pic02.jpg" alt="Product Returns Dashboard 1">
+  <a href="images/product_return_db.png" data-pswp-width="1200" data-pswp-height="800">
+    <img src="images/product_return_db.png" alt="Product Returns Dashboard 1">
     <div class="gallery-nav">
       <span class="arrow left">&#10094;</span>
       <span class="arrow right">&#10095;</span>
     </div>
   </a>
-  <a href="images/pic03.jpg" data-pswp-width="1200" data-pswp-height="800" style="display: none;">
-    <img src="images/pic03.jpg" alt="Product Returns Dashboard 2">
+  <a href="images/productreturn_MessyData.png" data-pswp-width="1200" data-pswp-height="800" style="display: none;">
+    <img src="images/productreturn_MessyData.png" alt="Product Returns Dashboard 2">
   </a>
-  <a href="images/pic04.jpg" data-pswp-width="1200" data-pswp-height="800" style="display: none;">
-    <img src="images/pic04.jpg" alt="Product Returns Dashboard 3">
+  <a href="images/productreturn_CleanData.png" data-pswp-width="1200" data-pswp-height="800" style="display: none;">
+    <img src="images/productreturn_CleanData.png" alt="Product Returns Dashboard 3">
   </a>
 </div>
 
+<p style="font-size: 0.75em; font-style: italic;">
+  The images shown are the dashboard, messy data, and cleaned data, respectively.
+</p>
+<p style="text-align: center; margin-top: 1em;">
+  <a href="https://drive.google.com/drive/folders/1UdqDydeSYHdP_12t79eKKp2QhZ7fDzWP?usp=sharing" 
+     target="_blank" 
+     class="button">
+    View Excel Data on Google Drive
+  </a>
+</p>
+
           <section>
-            <h3>Objective</h3>
-            <p>To uncover why products are returned, which items are most frequently returned, and how trends change over time. The analysis helps businesses reduce return-related losses.</p>
-
-            <h3>Tools Used</h3>
-            <ul style="text-align: left;">
-              <li><strong>Excel:</strong> Data cleaning, conditional formatting, return category tagging</li>
-              <li><strong>Power Query:</strong> Automated transformations for messy columns, filters, and date cleanup</li>
-              <li><strong>Power BI:</strong> Interactive dashboards with visuals like bar charts, slicers, and KPIs</li>
-            </ul>
-
-            <h3>Sample Insights</h3>
-            <ul style="text-align: left;">
-              <li>Top return reason: Defective product</li>
-              <li>Return spikes seen after promotional campaigns</li>
-              <li>High-value items had lower return rates compared to accessories</li>
-            </ul>
-
-            <h3>Outcome</h3>
-            <p>Created a Power BI dashboard summarizing trends, reasons, and return volume over time. Helped simulate real-world client reporting scenarios by preparing and visualizing raw return logs from scratch.</p>
-          </section>
+          <div class="table-wrapper" style="text-align: left;">
+  <table>						
+											<tbody>
+												<tr>
+													<td><strong>Objective:</strong></td>
+													<td><li>What are the monthly sales and profit trends?</li> 
+ <li>What categories and regions are most profitable?</li>  
+ <li>What products are underperforming?</li></td>
+												</tr>
+												<tr>
+													<td><strong>Tools Used:</strong></td>
+													<td><li>Excel: Data cleaning, formulas, pivot tables</li>
+<li>Power BI: KPIs, charts, segmentation visuals</li></td>
+												</tr>
+												<tr>
+													<td><strong>Insights:</strong></td>
+													<td><li>Most revenue comes from Female members buying Health & Beauty products.</li>
+                          <li>Evening and weekend sales perform significantly better.</li>
+                          <li>Customer ratings tend to align with payment method preferences.</li>
+                        </td>
+													
+												</tr>
+												<tr>
+													<td><strong>Outcome:</strong></td>
+													<td>Built a clear dashboard that helped simulate real-world analysis using pivot tables and Power BI dashboards. Great for sales trend reporting practice.</td>
+												</tr>
+											</tbody>
+											<tfoot>
+									
+											</tfoot>
+										</table>
+</div>
 
           <ul class="actions special">
             <li><a href="index.html" class="button">← Back to Home</a></li>
@@ -84,42 +107,65 @@
       </div>
 
       <!-- Footer -->
-      <footer id="footer">
-        <section class="split contact">
-          <section class="alt">
-            <h3>Address</h3>
-            <p>Philippines</p>
-          </section>
-          <section>
-            <h3>Email</h3>
-            <p><a href="mailto:nmaemondejar@email.com">nmaemondejar@email.com</a></p>
-          </section>
-          <section>
-            <h3>Social</h3>
-            <ul class="icons alt">
-              <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-              <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            </ul>
-          </section>
-        </section>
-      </footer>
+					<footer id="footer">
+						<section>
+							<form method="POST" action="https://formspree.io/f/xqalekrv">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Philippines</p>
+							</section>
+							
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:nmaemondejar@gmail.com">nmaemondejar@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
-      <!-- Copyright -->
-      <div id="copyright">
-        <ul><li>&copy; NOE ANALYTICS</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-      </div>
-    </div>
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Noe Analytics</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
   
 <script type="module">
   import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
